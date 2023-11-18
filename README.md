@@ -11,7 +11,7 @@ It uses an ESP32 microcontroller with temperature, pressure, humidity, and sunli
 #### ESP32 Microcontroller
 
 The ESP32 microcontroller, the core hardware component of the project, connects to four sensors: temperature, pressure, humidity, and sunlight sensors. The ESP32 acts as the data collection node, continuously capturing sensor measurements and packaging them for transmission with an RTC (Real Time Clock) coupled to provide the basis of time for timestamping.
-![](/Images/MeterStation.JPG)
+![](/Images/MeterStation.jpg)
 
 #### MQTT Broker
 The ESP32 sends the collected data to an MQTT broker. MQTT (Message Queuing Telemetry Transport) is a lightweight messaging protocol designed for efficient communication between IoT devices and servers. It ensures that data is transmitted efficiently from the ESP32 to the cloud.
